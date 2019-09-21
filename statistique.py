@@ -13,7 +13,7 @@ Eléve= pd.read_excel('eleve.xlsx')
 moyClasse = Eléve['Moyenne'].mean()
 
 #Extraire le pourcentage de fille
-nombreFille = len(Eléve[Eléve['Sexe'] =='masculin'])
+nombreFille = len(Eléve[Eléve['Sexe'] =='feminin'])
 nombreEtudiant = len(Eléve)
 
 pourcentageFille = (nombreFille * 100.0)/nombreEtudiant
